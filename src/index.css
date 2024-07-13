@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: radial-gradient(#0d0047, rgb(1, 0, 10));
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(green, red); */
+}

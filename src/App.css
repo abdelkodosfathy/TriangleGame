@@ -1,0 +1,63 @@
+/* body{
+  width: 100%;
+  margin: auto;
+} */
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+.root{
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  margin: auto;
+  width: clamp(378px, 80%, 600px);
+  border: solid #ccc 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+.triangle {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+h2{
+  color: white;
+}
+/**/
+.selected{
+  background: red;
+}
